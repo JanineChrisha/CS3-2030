@@ -1,29 +1,14 @@
-9 - Samat
-Ducos, Janine                                                                                           August 14, 2025
-Bragais, Cai-li
-De Dios, Denise
+9 - Samat 
+Ducos, Janine, Bragais, Cai-li, De Dios, Denise
 
-1. Efficiency
+1. Pseudocode 1 is faster for larger lists because it only goes through the list once, whereas pseudocode 2 uses a loop inside another loop. 
 
-Pseudocode 1 is initially faster because it only has a single loop that checks each number once.
+2. Pseudocode 1 is easier to understand because it directly keeps track of the current maximum using a variable called max.
 
-2. Readability
+3. Pseudocode 1 would be easier to update because its structure is straightforward.
 
-Pseudocode 1 is easier to understand because it uses a single loop that scans for the largest number.
+4. Pseudocode 1 is easier to test because it has fewer conditions and a very simple flow.
 
-3. Maintainability
+5. The algorithm should check that the list is not empty and that all inputs are valid before processing.
 
-Pseudocode 1 is easier to update because you only need to add one extra variable and an if statement.
-
-4. Testability
-
-Pseudocode 1 is easier to test because it has a straightforward single loop.
-
-5. Security
-
-Pseudocode 1 would have to check for invalid input, non-numerical answers, and empty lists.
-
-6. Final Answer
-
-Based on all the requirements that Pseudocode 1 passed, its safe to say that it is better than Pseudocode 2 because it is efficient, easier to understand and test, 
-simpler to update, and is more resilient. 
+6. Pseudocode 1 is the better algorithm because its structure is simple which makes it easier to read, maintain, and test.
