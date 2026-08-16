@@ -1,17 +1,15 @@
-9 - Samat
-Ducos, Janine                                                                                           August 14, 2025
-Bragais, Cai-li
-De Dios, Denise
+9 - Samat 
+Ducos, Janine, Bragais, Cai-li, De Dios, Denise
 
 
 Step 1:  
-Main Problem: PSHS canteen gets crowded because the process is slow.
+Main Problem: Slow and crowded canteen.
 
 
 Step 2:
-Sub problem 1. Some students are indecisive.
-Sub problem 2. The cashier has to manually compute change.
-Sub problem 3. They cannot track the stock of their supplies.
+Sub problem 1: Students take too long to order food.
+Sub problem 2: Slow and faulty manual calculation by cashier.
+Sub problem 3: No system to track food supply.
 
 
 Step 3:
@@ -20,9 +18,15 @@ CT skill to solve all sub-problems is Algorithm Design, design a system that can
 
 Step 4: Pseudocode
 1. Start program.
-2. The program asks for the users order usually before canteen opens.
-3. If the product is available, it will alert the user that their purchase has been successful.
-4. Once their purchase has been marked succesfully, the total and change would be computed by the system.
-6. If the product is not available, it will alert the user that their stock is low.
-7. If the user is done with the program, program will end.
+2. Display the food items available and their prices.
+3. Ask the user to select their food and quantity.
+4. Check if the selected food is available.
+5. If available, confirm the order.
+6. Calculate the total cost automatically.
+7. Ask for amount paid.
+8. Calculate and display the change.
+9. If the food item is unavailable, tell the user that the item is out of stock.
+10. Ask the user if they want to order again.
+11. If yes, repeat the ordering process.
+12. If no, end the program.
    
